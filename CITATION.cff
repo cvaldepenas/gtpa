@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use or discuss this work, please cite it as below."
+title: "GTPA: Agency on a Noisy Base Motion, Without Physics. Core Edition with Part H, the Human Sector"
+authors:
+  - family-names: "Valdepenas"
+    given-names: "Cristobal"
+    orcid: "https://orcid.org/0009-0001-4714-666X"
+doi: 10.5281/zenodo.23195763
+version: "2.1"
+date-released: "2026-10-06"
+repository-code: "https://github.com/cvaldepenas/gtpa"
+license: CC-BY-NC-SA-4.0
+keywords:
+  - agent modelling
+  - stochastic control
+  - optimal control
+  - stochastic differential equations
+  - Itô calculus
+  - Markovian switching
+  - adaptive control
+  - formal verification
+  - Lean
+  - errata
