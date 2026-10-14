@@ -1,16 +1,124 @@
-# GTPA v2.2 — core edition and Part H, the human sector
+# GTPA v2.2.1 — core edition and Part H, the human sector
 
-**Version 2.2, published edition.** Zenodo concept DOI
-10.5281/zenodo.17636280; version DOI 10.5281/zenodo.23352473. C.
-Valdepeñas. Text of 2026-10-13; published 2026-10-13. It supersedes GTPA
-v2.1 (2026-10-06, 10.5281/zenodo.23195763), which superseded GTPA v2.0
+**Version 2.2.1, published edition (a correction).** Zenodo concept DOI
+10.5281/zenodo.17636280; version DOI 10.5281/zenodo.23374852. C.
+Valdepeñas. Text of 2026-10-14; published 2026-10-14. It supersedes GTPA
+v2.2 (2026-10-13, 10.5281/zenodo.23352473), which superseded GTPA v2.1
+(2026-10-06, 10.5281/zenodo.23195763), which superseded GTPA v2.0
 (2026-10-05, 10.5281/zenodo.23172305), which superseded GTPA v1.2
 (2025-12-20, 10.5281/zenodo.17994303).
 
-**What changes, and why.** v2.2 is a focused edition. It adds a few exact
-results on declared models to four worked models of §4, under three
-themes, and it fixes two omissions. Each addition comes from a research
-note and was adjudicated result by result before it entered.
+**What changes, and why.** v2.2.1 corrects v2.2. No result changed in
+its hypotheses, conclusion or level (Result H.4, which cites without
+restating what Part H takes from the core, gains two citations in its row
+on Model 4.5), and no statement is added, removed or renumbered. After
+v2.2 was published, an assurance pass by independent AI contexts read
+its record again (see "How it was checked"). It found no false result. It
+confirmed points in the citations, the summaries, some wording, the
+notation table and the typesetting, and these are corrected here, each in
+its place, with the fixes of two reads of the corrections:
+
+- Citations and levels.
+  - Model 4.5, the prefactor `π` of the mean time spent in the well:
+    v2.2 cited Berglund 2013 for it as a standard fact, but Berglund
+    states the Eyring–Kramers law with `2π`, for a stop past the saddle.
+    The `π` form comes from the closed formula by Laplace's method (the
+    maximum of `J` on `[q*, q_s]` is at the end point, so half a Gaussian
+    counts); it is now `PROVED` in the note (AB-5 (c)) · level 3, and
+    Berglund 2013, eqs. (1.8) and (3.15), is cited for the `2π` form.
+  - References, Berglund 2013: they now say what was checked (its
+    bibliographic record on 2026-10-13; eqs. (1.8) and (3.15) against its
+    arXiv version on 2026-10-14).
+  - Model 4.11, the fixed-subspace variant: its heading cites IAC-1 to
+    IAC-3, as Model 4.6 and the References do (v2.2: IAC-2, IAC-3).
+  - Model 4.6, composed self-models: the two-worlds sentence now gives
+    level 3 for general `N` (AC-9 (a)–(c), as the adjudication read it),
+    and it states the separating record for `N = 2, 3`, where it was
+    checked (level 2); v2.2 gave no level for general `N`.
+- Summaries.
+  - This header's description of v2.2 (below) and the version note: the
+    wells result holds in a declared one-dimensional gradient well with
+    constant noise, and without noise the least effort to leave is
+    approached but not attained (v2.2 said "a well of the base").
+  - This header's description of v2.2 (below): v2.1 had collectives
+    through coherent intents (CT-09 to CT-11) as well as through a joint
+    landscape (v2.2 said "only through a joint landscape").
+  - This header's description of v2.2 (below): three formulas of v2.1's
+    PDF were set wrongly, counted by formula as elsewhere (v2.2's header
+    counted four here).
+  - The version note: each statement carries its hypotheses and a status,
+    and each result its check level (v2.2 gave every statement a level;
+    definitions and models carry none).
+  - Model 4.5, the well bullet: it opens on "a declared well" (v2.2: "a
+    well").
+- Wording that could be misread.
+  - Model 4.5, the bullet without noise: the infimum `4λ_effort ΔJ` is
+    over all paths of all durations together (v2.2: "over paths of every
+    duration", which could be read as at each fixed duration).
+  - Model 4.5: U-13 (b)'s hypotheses fail because an equilibrium, `q_s`,
+    is on `∂D` and because `D` is unbounded (v2.2 named only the first).
+  - Model 4.6, two phases: the third phase is a continuous function of
+    time, as in the note.
+  - Model 4.11, its head: it declares its target and two levels of
+    information on top of Definition 2.4 and adds no definition or result
+    to §§1–3 (v2.2: "It adds to Definition 2.4 a target" and "it is not
+    part of the core", against the reading rule that the core is §0–§5).
+  - Model 4.11, the Scope: `φ` and the gain `g` are written out for a
+    fixed subspace and for no restriction.
+  - Model 4.11, information over time: the window values are summed
+    without the letter `k`, which names the action dimension, and
+    `½e^{−ϱt/8}` is called half the Bhattacharyya coefficient (v2.2
+    called it the coefficient).
+  - Part H, Result H.4's row on Model 4.5 and Annex H-A row H-26: without
+    noise, leaving a well needs added control, at effort at least
+    `4λ_effort ΔJ` on the declared well of Model 4.5 (in the Result H.4
+    row); with noise, the first-order base leaves that well without
+    control (v2.2 gave only the first half, without the effort). Part H's
+    lists of note IDs now include AB-.
+- The notation table (§0.3).
+  - The Model 4.5 row: `q_s` is the barrier top, a strict local maximum
+    of `J` that the text calls the saddle as the metastability literature
+    does, not a saddle in U-12 (c)'s sense.
+  - The Model 4.11 row: Part H's action gain `g`, `S₁`, `S₂`, the
+    proof-local `χ` of Result H.14 and the dimension `p` of Model H.10,
+    and Model 4.5's length scale `ℓ`, are named as other objects; the
+    notations of the research notes are given note by note, with those
+    v2.2 left out, among them the opposite sign of `D` in IAC- and CCI-,
+    which is immaterial in the variants and the Scope.
+  - The `τ` row: Part H's time change `τ(t)` is named as another object.
+- Typesetting.
+  - `RESEARCH-NOTES-v2.2.1.pdf`: the display of `u_ind` and `u_common`,
+    and `AL_F` in a table, are set as mathematics (v2.2: code font), and
+    the matrix sizes print `×` (v2.2: an italic x).
+  - `BLOCK-C-OBJECTS.pdf`: one displayed equation is set as mathematics
+    (v2.1's PDF: code font).
+  - The three PDFs built for this record: each bookmark lands on its
+    heading's page (five landed a page early in v2.2's two built PDFs,
+    and two in v2.1's `BLOCK-C-OBJECTS.pdf`); the two block PDFs copied
+    from v2.1 keep eight such bookmarks.
+- The deposited notes. Their cover, §0.2, the References and "Proofs"
+  below say that the copies are as the adjudication read them, that one
+  note also omits a closing remark on internal use, and that their status
+  lines, levels and what they say GTPA contains predate the adjudication,
+  so this text governs where it differs. In acoplamiento-entre-dos, a pointer to an essay now names it
+  and says that it is unpublished. Nothing else in the copies changes.
+- Two quotations in `BLOCK-C-OBJECTS`. In the question quoted in §3.10
+  (EG-09.5), "[the author]" replaces the author's first name, a marked
+  editorial substitution, and its opening record no longer quotes the
+  words of a go-ahead; its status block records both, and its PDF is
+  rebuilt.
+
+Two points the pass confirmed in deposited files are left as published:
+a local folder name in a comment of the Lean file, which stays byte for
+byte v2.1's, and the shortened condition in the summary sentence of
+informacion-y-accion-colectiva, whose exact form is in AC-5 (b) of
+automodelo-colectivo, also deposited, and in Model 4.6.
+
+**What v2.2 added** (2026-10-13), as v2.2's header described it, with the
+corrections above. v2.2 is a focused edition. It adds a few exact results
+on declared models to four worked models of §4, under three themes, and
+it fixes two omissions. Each addition comes from a research note and was
+adjudicated result by result before it entered.
 
 - Information and action (Model 4.11, the value of calibrated
   information). v2.1 left out a restricted action, a random action coupling
@@ -25,17 +133,20 @@ note and was adjudicated result by result before it entered.
   bullet now gives the exact net value of the option to observe at a known
   cost.
 - Wells and terrain (Models 4.5 and 4.1). v2.1 said only that leaving a
-  well needs an added control (CT-08 (b)). In a well of the first-order
-  base with noise, as the noise level tends to zero the barrier sets the
-  exponential rate of how long the state stays, and the curvature sets
-  only the return rate, the variance and the prefactor; without noise,
-  leaving takes an effort set by the barrier alone. Redesigning the base,
-  paid once, is set against holding against it, paid at every instant: in
-  a declared model the redesign is cheaper exactly past the horizon
-  `T_red = C_red/c_hold`; and cancelling part of a landscape gives the same
-  motion as removing it.
+  well needs an added control (CT-08 (b)). In a declared one-dimensional
+  gradient well with constant noise (`A = 0`, `G = 1`, `Σ = √(2ε)`), as
+  the noise level `ε` tends to zero the barrier sets the exponential rate
+  of the mean time spent in the well; the curvature at the bottom sets
+  only the return rate and the variance, and the curvatures enter the mean
+  time only through the prefactor. Without noise, the least effort to
+  leave (`4λ_effort ΔJ`, approached but not attained) is set by the barrier
+  alone. Redesigning the base, paid once, is set against holding against
+  it, paid at every instant: in a declared model the redesign is cheaper
+  exactly past the horizon `T_red = C_red/c_hold`; and cancelling part of
+  a landscape gives the same motion as removing it.
 - Coupling between two and collectives (Model 4.6). v2.1 had collectives
-  only through a joint landscape (CO-10, CO-11). A common order is a
+  through coherent intents (CT-09 to CT-11) and through a joint landscape
+  (CO-10, CO-11). A common order is a
   fixed subspace of actions, with a witness where it halves the value of
   information. Calibrated self-models of the members compose into the
   group's calibrated model exactly when, given all the records, the
@@ -58,11 +169,11 @@ opening paragraph now say that some proofs are in research notes, which
 are deposited with this record, §0.1 and Definition H.1 name Part H as
 added in v2.1, and two rows of Definition H.3 gain their pointers; §0.3
 gains rows for the new
-symbols and extends its rows on Model 4.11 and on `τ`. Four formulas that
-the PDF of v2.1 set wrongly (`M_d ÿ` and `Γ_d ẏ` in Model 4.2, `B_i u_i`
-in Model 4.6, `F_{req,i}` in Model 4.11) are now written so that the PDF
-sets them as intended; they do not change. Every new result holds for its
-declared model only.
+symbols and extends its rows on Model 4.11 and on `τ`. Three formulas that
+the PDF of v2.1 set wrongly (`M_d ÿ = −∇V_eff − Γ_d ẏ` in Model 4.2,
+`B_i u_i` in Model 4.6, `F_{req,i}` in Model 4.11's first bullet) are now
+written so that the PDF sets them as intended; they do not change. Every
+new result holds for its declared model only.
 
 **Base.** The base motion is that of UFD v2.0 (2026-10-05,
 10.5281/zenodo.23171454), unchanged since GTPA v2.0. This text cites UFD
@@ -126,13 +237,13 @@ contexts (level 3). They found no false result in the notes; the
 corrections concern hypotheses, the wording of statements and proofs,
 notation, references and which part of a result enters.
 
-The text of these additions and this publication copy were then read by
-two more independent AI contexts of the same provider (2026-10-13), which
-recomputed the decisive calculations with their own scripts, with no
+The text of these additions and the v2.2 publication copy were then read
+by two more independent AI contexts of the same provider (2026-10-13),
+which recomputed the decisive calculations with their own scripts, with no
 disagreement with any number. A mathematics read checked every added or
 changed statement for truth, complete hypotheses, status, level and
 notation: four real errors and thirteen minor points. A publication read
-checked this copy against the living texts and the metadata, and the PDF
+checked that copy against the living texts and the metadata, and the PDF
 on its rendered pages: five real errors and twelve minor points. Two real
 errors were found by both. The well bullet of Model 4.5 opened by saying
 that the barrier, not the curvature, sets the time spent in a well, which
@@ -143,15 +254,59 @@ proofs that rest on research notes. The others: in the composed
 self-models of Model 4.6, the shared sign was not said to be independent
 of the parameters, and the numbers given hold for `F_req = 1`; in two
 phases, the return of the offset was stated for every locked pair and
-holds for `|Δω| < K_1 + K_2`; this header, the version note and the
+holds for `|Δω| < K_1 + K_2`; the header, the version note and the
 metadata dropped the hypothesis `κ_F > 0`; the Spanish summary said things
 the text does not say; and the PDF set four formulas wrongly, three of
 them as the PDF of v2.1 did. All are fixed, and each fix that changes a
 claim was recomputed by machine on 2026-10-13. Of the 25 minor points, 23
 are applied, one in part (the notes were said not to be deposited with
-this record; the theory lead has since decided to deposit them, see
-Proofs below) and one is not (the paths of the notes stay as written, as
+the record; the theory lead then decided to deposit them, see Proofs
+below) and one is not (the paths of the notes stay as written, as
 provenance).
+
+The corrections of v2.2.1 (2026-10-14): after v2.2 was published,
+independent AI contexts of the same provider read its record again area by
+area (the mathematics of Models 4.1, 4.5, 4.6 and 4.11, the records, the
+PDFs, the summaries, the deposited copies and the texts that use GTPA, and
+three areas that a further context found unchecked), and one or two more
+contexts checked each finding, trying to refute it: 75 findings were
+confirmed and 3 refuted. They found no false result. The corrections
+listed above are the confirmed findings that concern this text and its
+files, but for the two left as published, and one side effect of a
+converter fix for the notes, the display of `BLOCK-C-OBJECTS` set as
+mathematics; the other findings concern working records and surfaces
+outside this record. Of the findings corrected here, three were real
+errors (the citation of the `π` prefactor, the summaries of the wells
+result, and the description of v2.1's collectives) and the others minor.
+To check the corrected citation, the Laplace step of
+Model 4.5 was recomputed by machine on 2026-10-14 (the half and the whole
+Gaussian symbolically, and the closed formula by quadrature on two wells,
+whose ratio to the `π` form tends to 1; the text keeps level 3 for the
+step), and Berglund's equations were checked against its arXiv version.
+
+These corrections and this copy were then read by two more independent
+AI contexts of the same provider (2026-10-14). A mathematics and wording
+read checked every changed sentence against its finding and recomputed by
+hand the mathematics the corrections touch: three real errors and eight
+minor points. A publication read checked this package against the living
+texts, the sources of the notes and the records: three real errors and
+fourteen minor points. One real error was found by both, so there were
+five. Three are in this record: Result H.4's row gave the least effort to
+leave a well for the first-order base in general, where it holds on
+Model 4.5's declared well only (with the mobility `½` the reversed path
+costs `2λ_effort ΔJ`); §0.3 said that every use of `D` in Model 4.11 is
+even in `D`, which fails in the proof of its first bullet and holds in the
+variants and the Scope; and this header pointed to an AC-5 (b) in a note
+that has none. The other two concern working records outside this
+record. All five are fixed, and the first two were recomputed by machine
+on 2026-10-14. The minor points that concern this record are applied,
+among them the separating record of Model 4.6, now stated for `N = 2, 3`,
+where it was checked, but one in part: the quoted words of the go-ahead
+are dropped from `BLOCK-C-OBJECTS`, whose PDF is rebuilt, and stay in the
+two block files whose PDFs are v2.1's, until those are rebuilt. The fixes
+were re-read once by one more independent AI context of the same provider
+(2026-10-14), which found no real error and nine minor points, all
+applied; these nine edits were not re-read.
 
 Part H: the decisive calculations of Results H.6, H.7, H.8 and H.11, the
 identity of Model H.9, the two equivalences of Definition H.3 and two
@@ -172,7 +327,9 @@ no disagreement with any number, no real error, and thirteen minor
 points, twelve applied in the text and the thirteenth (a stale roadmap
 row) applied outside it. In v2.2 Part H changed only in three pointers to
 Model 4.6 and in Definition H.1, which now names it Part H of GTPA (added
-in v2.1); no result of Part H changed.
+in v2.1), and in v2.2.1 only in two rows that point to Model 4.5 (one of
+them in Result H.4, which gains two citations) and in its list of note
+IDs; no result of Part H changed in its hypotheses, conclusion or level.
 
 The release read of the v2.1 publication copy (2026-10-06), by one more
 independent AI context of the same provider, recomputed the table and the
@@ -193,13 +350,22 @@ of this text.
 Model 4.11 are written out in place). They are in three files published
 with this record: `BLOCK-B-ANSWERS.pdf` (B-nn), `BLOCK-C-THEOREMS.pdf`
 (CT-nn) and `BLOCK-C-OBJECTS.pdf` (CO-nn). Their texts are unchanged since
-v2.0, and their PDFs are those of v2.1. The additions of v2.2 marked
-"`PROVED` in the note" rest on the proofs of the five research notes named
-with them (revisable notes, four in Spanish and one in English, not part
-of this text). Public copies of the five are deposited with this record
-as `RESEARCH-NOTES-v2.2.pdf`, as at the commit at which they were read,
-omitting only their provenance line and their pointers to unpublished
-working files; the References give each note's path and that commit.
+v2.0, except, in `BLOCK-C-OBJECTS`, the quotation of §3.10, the words of a
+go-ahead its opening record quoted, and the status line that records
+them; `BLOCK-C-OBJECTS.pdf` is rebuilt with the build of
+this record, and the other two PDFs are those of v2.1. The additions of
+v2.2 marked "`PROVED` in the note" rest on the proofs of the five research
+notes named with them (revisable notes, four in Spanish and one in
+English, not part of this text). Public copies of the five are deposited
+with this record as `RESEARCH-NOTES-v2.2.1.pdf`, as the adjudication read
+them, omitting their provenance line, their pointers to unpublished
+working files and, in one note, a closing remark on internal use; their
+status lines, check levels and what they say GTPA contains are those of
+the notes before the adjudication (their base is GTPA v2.1), and where
+this text states a result with other hypotheses, wording or level, this
+text governs. They are the copies deposited with
+v2.2, with one pointer to an essay now named as unpublished; the
+References give each note's path and the commit at which it was read.
 Every PDF of this record is compiled with LaTeX (Tectonic 0.17.0, XeTeX
 engine), with the formulas set as mathematics. Part H's proofs are written
 out in place. The Lean file of the core of Result 2.5,
@@ -212,11 +378,12 @@ author's internal consumers, repository paths and commit hashes in the
 text are provenance only.
 
 **Reading one document.** "GTPA v2" in the text names the core (§0–§5),
-which v2.0 published and v2.1 and v2.2 keep, v2.2 with the additions above;
+which v2.0 published and v2.1, v2.2 and v2.2.1 keep, v2.2 with the
+additions above and v2.2.1 with its corrections;
 where the text says "Part H of GTPA v2.1", it names Part H as v2.1
-introduced it, which v2.2 keeps; where Part H says "GTPA v2.0", it means
-that core as v2.0 published it. Part H follows §5: its sections are
-§H.0–§H.6 and Annex H-A, and its statements are numbered H.1–H.14
+introduced it, which v2.2 and v2.2.1 keep; where Part H says "GTPA v2.0",
+it means that core as v2.0 published it. Part H follows §5: its sections
+are §H.0–§H.6 and Annex H-A, and its statements are numbered H.1–H.14
 (Definition H.1, ..., Result H.14); the core's are numbered by section
 (Definition 2.1, Model 4.7). The errata annex and the references of both
 parts close the document.
@@ -234,7 +401,7 @@ the efficacy of the action is measured against that ablation. Everything else
 is a worked model, declared as such. The proofs live in the block files and
 are cited by ID (the short proofs of Model 4.11 are written out in place;
 some additions of 2026-10-13 rest on the proofs of the research notes named
-with them, deposited with the GTPA v2.2 record as `RESEARCH-NOTES-v2.2.pdf`);
+with them, deposited with the GTPA v2.2.1 record as `RESEARCH-NOTES-v2.2.1.pdf`);
 the audit of v1.2, statement by statement, is the errata annex.
 Part H (after §5) reads the human sector as a class of declared models of
 this core; its evidence as a description of any person is zero.
@@ -260,10 +427,15 @@ class of declared models of this core, with zero evidence about any person.
   model or named hypothesis), `PROVED` (the proof is in the block statement
   named, written out in place ("here"), or, where the text says "in the
   note", in the research note named, cited by path and commit in the
-  References and deposited with the GTPA v2.2 record in
-  `RESEARCH-NOTES-v2.2.pdf` (public copies, four in Spanish and one in
-  English, omitting only the provenance line and pointers to unpublished
-  working files); the notes are not part of this text), `STANDARD_FACT` (a
+  References and deposited with the GTPA v2.2.1 record in
+  `RESEARCH-NOTES-v2.2.1.pdf` (public copies, four in Spanish and one in
+  English, as the adjudication read them, omitting their provenance line,
+  their pointers to unpublished working files and, in one note, a closing
+  remark on internal use; their status lines, check levels and what they
+  say GTPA contains are those of the notes before the adjudication (their
+  base is GTPA v2.1), and where this text states a result
+  with other hypotheses, wording or level, this text governs); the notes
+  are not part of this text), `STANDARD_FACT` (a
   textbook fact with the reference given there) or `OPEN`. Admitted ledger
   records are cited as `ledger` with their C-ID; they keep the ledger's own
   status and authority.
@@ -342,10 +514,10 @@ clash is resolved.
 | `P_cat` | short-time efficacy readout (Result 3.4); C0001's `P` | — |
 | `(P)` | the pairing hypothesis `ΣΣᵀ = 2εG`, `div_c A = 0` (U-08) | Model 4.2's gain matrix is `P_d`; a bare `P` is local: v1.2's scalar rate `<F, v>` in Model 4.4, the product `Eff·Res` in Model 4.6 |
 | `s`, `r(t)` | time parameter of a model-side metric flow (Model 4.9); warm-up schedule (Model 4.8) | CT-12's `s` (a gain) and `r := θs` are local to CT-12 |
-| `q_s`, `D`, `ℓ`, `J_1`; `c_hold`, `C_red`, `T_red`, `J_0`, `J_extra` | local to the bullets added on 2026-10-13 to Model 4.5 (the saddle of a declared well, U-13's domain `(−∞, q_s)`, a length scale and a fixed profile) and to Model 4.1 (the running cost of holding, the one-off cost of a redesign, the horizon at which they tie, a base landscape and an extra part of it) | the source notes write `x_s`, `w`, `g`, `κ` (atraccion-frente-a-borde) and `κ`, `c`, `m`, `a`, `D`, `T*` (disenar-el-terreno, with `c` for `q*` and `m` for `q̄`); Model 4.4's distance `D`, Model 4.11's difference `D` and window `ℓ`, Part H's recoding scale `ℓ` (Definition H.3), the lift direction `g`, Result 3.2's `w`, Model 4.3's `κ`, the noise dimension `m`, Model 4.7's rate `a`, Result 3.3's `T*` and the coherences `C_ij`, `C̄` are other objects |
+| `q_s`, `D`, `ℓ`, `J_1`; `c_hold`, `C_red`, `T_red`, `J_0`, `J_extra` | local to the bullets added on 2026-10-13 to Model 4.5 (the barrier top of a declared well, a strict local maximum of `J` that the text calls the saddle, as the metastability literature does in one dimension, not a saddle in U-12 (c)'s sense; U-13's domain `(−∞, q_s)`; a length scale and a fixed profile) and to Model 4.1 (the running cost of holding, the one-off cost of a redesign, the horizon at which they tie, a base landscape and an extra part of it) | the source notes write `x_s`, `w`, `g`, `κ` (atraccion-frente-a-borde) and `κ`, `c`, `m`, `a`, `D`, `T*` (disenar-el-terreno, with `c` for `q*` and `m` for `q̄`); Model 4.4's distance `D`, Model 4.11's difference `D` and window `ℓ`, Part H's recoding scale `ℓ` (Definition H.3), the lift direction `g`, Result 3.2's `w`, Model 4.3's `κ`, the noise dimension `m`, Model 4.7's rate `a`, Result 3.3's `T*` and the coherences `C_ij`, `C̄` are other objects |
 | `ϑ`, `ϑ_i`, `B_i(ϑ)`, `Y_i`, `Q_i`, `Z_Q`, `ξ`, `ξ_i`, `p_ref`; `q_1`, `q_2`, `ω_i`, `Δω`, `ω̄`, `K_1`, `K_2`, `q_3`, `K_3`, `K'_3` | local to the bullets of Model 4.6 added on 2026-10-13: the members' parameters and each member's own, the member's block of the coupling, records, calibrated self-models, the Hessian of a model `Q`, shared or independent reference signs and the probability of `+1`; two phases (base coordinates), their rhythms, the rhythm mismatch, the common rhythm, the gains, a third phase and its pulls on `q_2` and `q_1` | the source notes write `θ_i`, `H_i`, `F`, `a`, `p` (automodelo-colectivo) and `θ_i`, `Ω`, `K`, `b`, `b'`, `λ` (acoplamiento-entre-dos); Model 4.7's `θ`, Model 4.8's `K`, Model 4.10's `b`, the Hessian `H`, Model 4.6's total `F` and bare `P`, the regularizer `δ`, the lift direction `g`, Result 2.2's `ξ`, Model 4.11's `Ω`, Model 4.11's channel `Y` (not the records `Y_i`), the opportunity function `Ω`, and Part H's `ξ` and `ω = (ω₊, ω₋)` (Result H.14) are other objects |
-| `F`, `Ω`, `P(·)`, `D`, `I₁`, `I₂`; `S`, `P_S`, `\|·\|_Z`, `S_j`, `P_j`, `γ_j`, `φ`, `j*`, `j₁`, `Z_i`, `B̄_i`; `χ`, `Y`, `y₋`, `y₊`, `σ_o`, `W_o`, `W̄`, `ϱ`, `ℱ_t`, `p_t`, `p_i`, `w_t`, `ν`, `ℓ`, `F₋`, `F₊`, `κ_F`, `𝒱`, `c_o`; `c`, `g` | local to Model 4.11: random target, probability space, probability, difference of actions `u₁ − u₂`, information σ-algebras; a fixed action subspace, its `Z`-orthogonal projection and the norm of `Z`, a menu of subspaces with their projections and costs, the menu's value function, a maximizer and the earlier choice, the conditional Hessian and mean of a random `B`; the hidden mode, the channel, the two levels and the noise size of a channel with known levels, the channel's noise, the innovation, the signal per unit time, the observed history, the posterior and the posterior given `I_i` (`p_i`, `i = 1, 2`, not `p_t` at `t = i`), its variance, the switching rate, the window length, the two values of the target, the mode gain, the value of a window, a cost per window; the cost and the gain of observing (Scope) | Model 4.6's total `F`, Perelman's `F` (Model 4.9), the opportunity function `Ω` (Model 4.10), the bare `P` of Models 4.4 and 4.6, the distance `D` of Model 4.4, Model 4.5's domain `D` and the identity `I` are other objects; so are Model 4.7's interrupt `S` and `p_S`, Result 2.6's `S`, B-03's recoding `φ`, Model 4.6's perturbation `w` and Result 3.2's `w`, Model 4.6's records `Y_i`, the lift direction `g`, Model 4.3's `κ`, the base noise `W`, U-15's `γ` (used in Models 4.1 and 4.5), the `c` of Models 4.4, 4.7 (with `c'`), 4.8 and 4.10, the measure `dν` of Model 4.9, Model 4.7's `ν_run`, `ν_sh`, and Part H's `c` and `ℓ` (Definition H.3) and filter rate `κ`, profile `φ` and state `z` (Result H.14); `ν` is the switching rate of Part H's Model H.10. The research notes write `S` for `ϱ`, `h` for `ℓ`, `π` for `p`, `κ` for `κ_F`, `κ_j` for `γ_j`, and `G`, `λ` for `G_reg`, `λ_effort` |
-| `τ` | not used by the core, except U-13's exit time `τ_D` (Result 1.4, Model 4.5) and the decision time `τ` local to Model 4.11 | v1.2's `tau` (Ax 0.2, Def 1.2, Protocol 11.1) has no referent in v2; Perelman's `τ` (App E) is not used either |
+| `F`, `Ω`, `P(·)`, `D`, `I₁`, `I₂`; `S`, `P_S`, `\|·\|_Z`, `S_j`, `P_j`, `γ_j`, `φ`, `j*`, `j₁`, `Z_i`, `B̄_i`; `χ`, `Y`, `y₋`, `y₊`, `σ_o`, `W_o`, `W̄`, `ϱ`, `ℱ_t`, `p_t`, `p_i`, `w_t`, `ν`, `ℓ`, `F₋`, `F₊`, `κ_F`, `𝒱`, `c_o`; `c`, `g` | local to Model 4.11: random target, probability space, probability, difference of actions `u₁ − u₂`, information σ-algebras; a fixed action subspace, its `Z`-orthogonal projection and the norm of `Z`, a menu of subspaces with their projections and costs, the menu's value function, a maximizer and the earlier choice, the conditional Hessian and mean of a random `B`; the hidden mode, the channel, the two levels and the noise size of a channel with known levels, the channel's noise, the innovation, the signal per unit time, the observed history, the posterior and the posterior given `I_i` (`p_i`, `i = 1, 2`, not `p_t` at `t = i`), its variance, the switching rate, the window length, the two values of the target, the mode gain, the value of a window, a cost per window; the cost and the gain of observing (Scope) | Model 4.6's total `F`, Perelman's `F` (Model 4.9), the opportunity function `Ω` (Model 4.10), the bare `P` of Models 4.4 and 4.6, the distance `D` of Model 4.4, Model 4.5's domain `D` and length scale `ℓ` and the identity `I` are other objects; so are Model 4.7's interrupt `S` and `p_S`, Result 2.6's `S`, B-03's recoding `φ`, Model 4.6's perturbation `w` and Result 3.2's `w`, Model 4.6's records `Y_i`, the lift direction `g`, Model 4.3's `κ`, the base noise `W`, U-15's `γ` (used in Models 4.1 and 4.5), the `c` of Models 4.4, 4.7 (with `c'`), 4.8 and 4.10, the measure `dν` of Model 4.9, Model 4.7's `ν_run`, `ν_sh`, and Part H's `c` and `ℓ` (Definition H.3) and filter rate `κ`, profile `φ`, state `z`, action gain `g := kr²` and `S₁`, `S₂` (Result H.14), the bounded Lipschitz `χ` local to the proof of Result H.14 and the dimension `p` of `z` (Model H.10); `ν` is the switching rate of Part H's Model H.10. The research notes write, in CG-, `S` for `ϱ`, `h` for `ℓ`, `π` for `p`, `κ` for `κ_F`, `𝒢` for `𝒱`, `δ` for `F₊ − F₋`, `Ī` for `W̄`, `f(a(τ))` for `F_{χ(τ)}`, and a mode `a(t) ∈ {a₋, a₊}` read through `dY = a dt + σ_o dW_o` (the channel with known levels, with `a±` for `y±`) for `χ`; in CCI-, `κ_j` for `γ_j`, `v_I` for `u_i`, `Z_I` for `Z_i`, `B_θ` for `B`, and `u*(I)` for the menu's optimum `P_{j*}u_i`; in IAC-, `P` for `P_S` and `u*(I)` for `u_i`. IAC- and CCI- write `G`, `λ` for `G_reg`, `λ_effort`, and `D` for `u₂ − u₁`, the opposite sign (every use of `D` in the variants and the Scope is even in `D` or is `E[D \| I₁] = 0`). In IAC- and CCI-, `S` is the subspace, as here |
+| `τ` | not used by the core, except U-13's exit time `τ_D` (Result 1.4, Model 4.5) and the decision time `τ` local to Model 4.11 | v1.2's `tau` (Ax 0.2, Def 1.2, Protocol 11.1) has no referent in v2; Perelman's `τ` (App E) is not used either; Part H's time change `τ(t) := ∫_0^t x²` (§H.0) is another object |
 
 ### 0.4 What v2 keeps from v1.2
 
@@ -880,7 +1052,7 @@ model.
   `ζ|ẋ|²`: a trajectory that starts in `{Ψ < h}` stays there, so leaving a
   well needs an added control. On the first-order base, `J` does not increase
   without noise (U-04). `PROVED` in CT-08 (b) · level 2.
-- With noise, a well of the first-order base is left without control, and,
+- With noise, a declared well of the first-order base is left without control, and,
   as `ε → 0`, the exponential rate of the time spent in it is set by its
   barrier; its curvature enters only the prefactor (added 2026-10-13 from a
   research note, AB-1, AB-2 (b), AB-3 to AB-7). Declared well: the gradient
@@ -899,9 +1071,15 @@ model.
   note, AB-5 (b) · level 3, from the closed formula of `E_q[τ_D]`, `1/ε`
   times that double integral taken from `q`: `STANDARD_FACT`, Karlin–Taylor
   1981, ch. 15 · level 3; U-13 (b) gives this limit under its own
-  hypotheses, which a saddle on `∂D` does not meet). The curvatures enter
+  hypotheses, which an equilibrium on `∂D`, here `q_s`, and the unbounded `D`
+  do not meet). The curvatures enter
   only the prefactor: `E_{q*}[τ_D] = π (J''(q*)|J''(q_s)|)^{−1/2} e^{ΔJ/ε} (1 + o(1))`
-  (Eyring–Kramers; `STANDARD_FACT`, Berglund 2013 · level 3). So, of two
+  (Laplace's method on that closed formula: the maximum of `J` on
+  `[q*, q_s]` is at the end point `q_s`, so only half a Gaussian counts;
+  `PROVED` in the note, AB-5 (c) · level 3, its numbers for the profile
+  `(1 − v²)²` of the witness below · level 2. The Eyring–Kramers law,
+  Berglund 2013, eqs. (1.8) and (3.15), has `2π` in place of `π` because it
+  stops past the saddle: `STANDARD_FACT` · level 3). So, of two
   such wells with different barriers, the mean time spent in the higher one
   divided by that in the other tends to infinity as `ε → 0`, whatever the
   curvatures; the curvatures decide only between equal barriers (`PROVED` in
@@ -917,8 +1095,9 @@ model.
   2026-10-13).
 - Without noise, the added control has a price set by the barrier: on that
   well, every path of `q̇ = −J'(q) + u` from `q*` to `q_s` has effort
-  `λ_effort ∫|u|² dt ≥ 4λ_effort ΔJ`, and the infimum over paths of every
-  duration is `4λ_effort ΔJ`, not attained; the curvature does not enter.
+  `λ_effort ∫|u|² dt ≥ 4λ_effort ΔJ`, and the infimum over all paths, of
+  all durations together, is `4λ_effort ΔJ`, not attained; the curvature
+  enters neither the bound nor this infimum.
   The bound is the computation of U-13 (b), `|q̇ + J'|² = |q̇ − J'|² +
   4q̇J'(q)`. `PROVED` in the note, AB-5 (d) · level 2 (recomputed by machine
   on 2026-10-13).
@@ -996,9 +1175,11 @@ norm, `G_reg ≻ 0`).
   model computed only from the members' models, or only from their records,
   is calibrated in at most one of the two worlds, and for
   `p_ref ∉ {0, ½, 1}` every action computed that way costs more than the
-  calibrated one in at least one of them; a record of `sum_i ϑ_i` separates
-  the worlds. `PROVED` in the note · level 2 for `N = 2, 3` (2026-10-13),
-  level 3 for the consequence. So the group's calibrated model depends on
+  calibrated one in at least one of them; for `N = 2, 3`, a record of
+  `sum_i ϑ_i` separates the worlds. `PROVED` in the note · level 2 for `N = 2, 3` (2026-10-13);
+  level 3 for general `N` (AC-9 (a)–(c), from AC-5 (c) and AC-7 (b)–(c)) and
+  for the consequence; the separating record checked for `N = 2, 3`
+  (level 2). So the group's calibrated model depends on
   the joint law of the members' parameters and records, which neither the
   members' models nor the law of their records fix; no self-similarity law
   follows. `DECLARED` (a reading of these results).
@@ -1028,7 +1209,7 @@ norm, `G_reg ≻ 0`).
   small kick to `q_2 − q_1` does: locked, the offset returns at the rate
   `((K_1 + K_2)² − Δω²)^{1/2}`; uncoupled, it stays. `PROVED` in the note
   (AC-6) · level 2 (the rate; the return argument at level 3). A third
-  phase `q_3(t)` given as a function of time (a time-dependent term,
+  phase `q_3(t)` given as a continuous function of time (a time-dependent term,
   outside the base by C6) adds `K_3 sin(q_3(t) − q_2)` to `q̇_2` and
   `K'_3 sin(q_3(t) − q_1)` to `q̇_1`, with `K_3, K'_3 ≥ 0`: with
   `K_1 = K'_3 = 0` and `|Δω| < K_2`, from the locked offset, the lock
@@ -1153,10 +1334,10 @@ flow: the Ricci flow `∂_s h = −2 Ric(h)` of the model metric `h` (v1.2's
   per update. `PROVED` in D-06 · level 2; the bookkeeping is D-05 and D-07.
 
 **Model 4.11 (The value of calibrated information).** Declared model, added
-2026-10-05 from `notas/informacion-y-margen-de-decision.md`, §§1–3. It adds
-to Definition 2.4 a target and two levels of information. It is a one-step
+2026-10-05 from `notas/informacion-y-margen-de-decision.md`, §§1–3. On top
+of Definition 2.4 it declares a target and two levels of information. It is a one-step
 decision model reusing the cost of Definition 2.4; it is not a statement on
-the lifted motion (L_η) or on `Γ_T`, and it is not part of the core.
+the lifted motion (L_η) or on `Γ_T`, and it adds no definition or result to §§1–3.
 Extended on 2026-10-13 with four declared variants, each holding for its
 own declaration only: a fixed action subspace, a menu of subspaces, an
 uncertain coupling and information over time, from the research notes
@@ -1185,7 +1366,7 @@ uncertain coupling and information over time, from the research notes
   `I₂`-measurable and `Zu₂ = BᵀG_reg E[F | I₂]`, so the last term has zero
   expectation. `PROVED` here · level 2 (the expansion recomputed symbolically
   by machine on 2026-10-05; the conditioning step at level 3).
-- Variant, a fixed action subspace (IAC-2, IAC-3). Both decisions are
+- Variant, a fixed action subspace (IAC-1 to IAC-3). Both decisions are
   restricted to the same linear subspace `S ⊆ R^k`, fixed in advance; `P_S`
   is the projection onto `S` orthogonal for `⟨v, v'⟩_Z := vᵀZv'`, and
   `|v|²_Z := vᵀZv`. `DECLARED`. The restricted minimizer is `P_S u_i`, at an
@@ -1284,8 +1465,9 @@ uncertain coupling and information over time, from the research notes
   ```
 
   Fixed mode: `E[w_t] ≤ ¼e^{−ϱt/8}`; for `I₂ ⊇ I₁ ⊇ ℱ_t` and any decision
-  after `t`, the gain is at most `(κ_F/8)e^{−ϱt/8}`; and
-  `sum_{k≥0} 𝒱(kℓ, ℓ) ≤ κ_F/8`. Switching mode, at every `t ≥ 0` and `ℓ > 0`:
+  after `t`, the gain is at most `(κ_F/8)e^{−ϱt/8}`; and the values of the
+  consecutive windows `[0, ℓ]`, `[ℓ, 2ℓ]`, … sum to at most `κ_F/8`.
+  Switching mode, at every `t ≥ 0` and `ℓ > 0`:
   `E[w_t] ≥ 4ν/(16ν + ϱ)` and
 
   ```text
@@ -1304,9 +1486,9 @@ uncertain coupling and information over time, from the research notes
   `P(χ(t + ℓ) = 1 | ℱ_t) = ½ + (p_t − ½)e^{−2νℓ}`; by Itô,
   `dw_t = (ν(1 − 4w_t) − ϱw_t²)dt` plus a martingale term (its integrand is
   at most `ϱ^{1/2}/4`), and variation of constants gives the integral. Fixed
-  mode: `p_t` depends on `Y_t` only, `E[w_t^{1/2}] = ½e^{−ϱt/8}` (the
-  Bhattacharyya coefficient of the two Gaussian laws of `Y_t`) and
-  `w ≤ ½w^{1/2}`; the window values telescope to at most
+  mode: `p_t` depends on `Y_t` only, `E[w_t^{1/2}] = ½e^{−ϱt/8}`, half the
+  Bhattacharyya coefficient `e^{−ϱt/8}` of the two Gaussian laws of `Y_t`
+  (the ½ is √(½·½), from the two prior weights), and `w ≤ ½w^{1/2}`; the window values telescope to at most
   `½κ_F E[w_0] = κ_F/8`. Switching mode: from `w² ≤ w/4` and `E[w_0] = ¼`,
   comparison gives the bound on `E[w_t]`; then `E[w_r²] ≥ E[w_r]²` and
   `E[w_r²] ≤ 1/16` in the integral. `PROVED` here · level 2 (the drift, the
@@ -1323,7 +1505,10 @@ uncertain coupling and information over time, from the research notes
   `I₁`-measurable cost `c ≥ 0` of observing, decided on `I₁`, the same
   channel and no other effect, the option to observe is worth `E[(g − c)⁺]`
   over never observing, where `g := E[φ(u₂) | I₁] − φ(u₁) ≥ 0` (conditional
-  Jensen, `φ` being convex; with no restriction, `g = ½E[|D|²_Z | I₁]`): it is
+  Jensen, `φ` being convex; `φ` is the menu's, a fixed `S` being the
+  one-entry menu with `γ = 0`, so `φ(v) = ½|P_S v|²_Z` and
+  `g = ½E[|P_S D|²_Z | I₁]`; with no restriction, `φ(v) = ½|v|²_Z` and
+  `g = ½E[|D|²_Z | I₁]`): it is
   never negative, since not observing stays available (CCI-10). `PROVED`
   here · level 2 (finite worlds against both choices, by machine on
   2026-10-13; the conditioning step and conditional Jensen at level 3). If
@@ -1410,19 +1595,24 @@ EG-10.a1 and EG-10.c1 have no GTPA object (`UNMAPPED_TO_GTPA`); EG-05.c
 ## Part H. The human sector
 
 ```text
-part      = Part H of GTPA v2.2, the human sector, as GTPA v2.1
+part      = Part H of GTPA v2.2.1, the human sector, as GTPA v2.1
             published it: drafted 2026-10-05, Result H.14 added
             2026-10-06; the UTHA v1.0 pin (H.0.1) and the answers to
             EG-06.b and EG-07.c (§H.5) adopted by the theory lead on
             2026-10-05. In v2.2 two rows of Σ_H and annex row H-48 point
             to the bullets added to Model 4.6, and Definition H.1 names it
-            Part H of GTPA (added in v2.1); no result changed
+            Part H of GTPA (added in v2.1); in v2.2.1 Result H.4's row on
+            Model 4.5 adds its noisy case and the effort bound of its
+            declared well (two citations, AB-5 (b), (d)), and annex row
+            H-26 its noisy case; no result changed in its hypotheses,
+            conclusion or level
 source    = UTHA v1.0, the public edition pinned in H.0.1; every UTHA
             locator here is a page of that PDF
 base      = the core above (§0–§5), its proofs (B-, CT-, CO-) and the
             errata annex; results of the author's adjudicated research
             notes (revisable, not part of this text) are cited by their
-            IDs (MEM-, ACT-, CONS-, LA-)
+            IDs (MEM-, ACT-, CONS-, LA-, and AB- of the note behind
+            Model 4.5)
 scope     = definitions, declared models and results with proofs for one
             class of declared models, the human sector; nothing about any
             actual person; the empirical evidence for reading any person
@@ -1468,7 +1658,8 @@ independent AI context, and, by GTPA v2's convention, a cited textbook fact;
 (4) written only. Part H numbers its statements in one sequence (Definition
 H.1, Result H.4, Model H.5, ...). H-nn is a row of Annex H-A. The IDs of
 GTPA v2 (Definition 2.1, Model 4.7, ...), of its block files (U-, B-, CT-,
-CO-, D-) and of the notes (MEM-, ACT-, CONS-, LA-) are as there. A UTHA
+CO-, D-) and of the notes (MEM-, ACT-, CONS-, LA-, and AB- of the note
+behind Model 4.5) are as there. A UTHA
 locator (UTHA §x, p.N) says where a statement comes from; it is never
 support.
 
@@ -1640,7 +1831,7 @@ stay separate in the notes and are not part of Part H.
 | Definition 2.4, Results 2.5, 2.6 | one control law `u* = Z⁻¹BᵀG_regF_req`, with `Z ⪰ λ_effort I` never singular; the SVD computes `Z⁻¹` (UTHA §6.1.1, §6.2.1, Mode II) | `PROVED` in CO-01, CT-05 · 2 |
 | Result 2.7 | holding a point costs exactly at the points that are not critical points of `J` | `PROVED` in CT-01 · 2 |
 | Model 4.4 | a move with zero rate at both ends: no interval of zero action under quadratic effort; push, zero, reverse under an L1 cost with a cap (UTHA §6.1.2's "pause") | `PROVED` in CT-06, CT-07 · 2 |
-| Model 4.5 | added potentials (identity, social) are declared; a gradient field has no curl; leaving a well needs added control | `PROVED` in CT-08 · 2; Poincaré lemma `STANDARD_FACT` · 3 |
+| Model 4.5 | added potentials (identity, social) are declared; a gradient field has no curl; without noise, leaving a well needs added control (CT-08 (b); on the declared well of Model 4.5, at effort at least `4λ_effort ΔJ`, AB-5 (d)); with noise, the first-order base leaves the declared well of Model 4.5 without control, with `ε ln E[τ_D] → ΔJ` as `ε → 0` | `PROVED` in CT-08 · 2; Poincaré lemma `STANDARD_FACT` · 3; AB-5 (d) `PROVED` in the note · 2; AB-5 (b) `PROVED` in the note · 3 |
 | Model 4.6 | full coherence reaches one ray and has a blind spot; the maximizers of Eff·Res lie below full coherence under a sufficient condition (UTHA §13.5) | `PROVED` in CT-09–CT-11, CO-10, CO-11 · 2 |
 | Model 4.7 | Class A: collapse from one open set of starts, recovery from another; Class B: coupling, not stability or corrigibility | `PROVED` in CT-12, CT-13 · 2 |
 | Model 4.9 | the optional Ricci flow of a model metric; it can end in finite time (UTHA §9.3, §10.1.2) | `PROVED` in CO-03–CO-06 · 2; CO-02 (c) `STANDARD_FACT` · 3 |
@@ -2288,7 +2479,7 @@ files are named by their number under `modelo-del-reino/` (5.4 is
 | H-23 | §4.1.1, p.28 | flow: `F_correction → 0`, `Z → 1`, `β_eff → β_min`, subjective time collapses, the Self goes offline; mastery reshapes `G_model` | `GTPA v2.0`, `REINO` | zero demand gives zero action (Result 2.5); `u = 0` recovers the base exactly (Definition 2.1); "`Z → 1`" fails (`Z ⪰ λ_effort I`; B-08); reshaping a metric is the optional Model 4.9; carried: 4.1 (`Z → 1` as [MR]), MR-K15 and 5.6 D7 (Mode I) |
 | H-24 | §4.2.1, p.29 | "Zombie Mode": the Arbitration Core runs Mode I ~95% of the time; routine in Mode II would exceed `P_max` | `DROPPED`, `REINO` | an empirical claim about people; the regime is carried with Mode I (MR-K15 `[LINAJE: UTHA §3 Mode I-III]`; 5.6 D7) |
 | H-25 | §4.2.2, Thm 4.1, p.30 | `Logic = Projection(Intuition) + ε_quantization` (`d ~ 10⁵ → 1`); trusting the gut is physically rational | `GTPA v2.0`, `PART H`, `DROPPED` | kernel: a lower-dimensional continuous proxy merges states (Model 4.10; D-03); exact code losses in declared models (MEM-2–MEM-4; Result H.4); the dimensions and the "gut" claim are claims about people |
-| H-26 | §5.1, p.31 | addiction: reward decouples from survival; a dissipative vortex; past an "event horizon" escape needs external energy | `GTPA v2.0`, `REINO`, `DROPPED` | leaving a well needs added control (CT-08 (b), Model 4.5); a vortex on the base needs `A` or a mobility that does not commute with the Hessian (CT-08 (a), (c)); internal error → 0 with external divergence is CT-12 (b); carried: 5.4 `[LINAJE: UTHA §5.1]`, also 3.7, 5.1, 5.2, reino-compacto; ATP and the horizon are physics |
+| H-26 | §5.1, p.31 | addiction: reward decouples from survival; a dissipative vortex; past an "event horizon" escape needs external energy | `GTPA v2.0`, `REINO`, `DROPPED` | without noise, leaving a well needs added control (CT-08 (b), Model 4.5); with noise, the first-order base leaves the declared well of Model 4.5 without control, the mean time spent in it growing like `e^{ΔJ/ε}` on the logarithmic scale, `ε ln E[τ_D] → ΔJ` as `ε → 0` (Model 4.5, since v2.2; AB-5 (b); U-13), so its kernel, escape needs added control, fails on the noisy base; a vortex on the base needs `A` or a mobility that does not commute with the Hessian (CT-08 (a), (c)); internal error → 0 with external divergence is CT-12 (b); carried: 5.4 `[LINAJE: UTHA §5.1]`, also 3.7, 5.1, 5.2, reino-compacto; ATP and the horizon are physics |
 | H-27 | §5.2, p.32 | compulsion is a stable limit cycle; a low signal-to-noise ratio keeps the stop signal below threshold | `GTPA v2.0`, `REINO`, `DROPPED` | without noise and with `A = 0`, `J` decreases strictly wherever `G∇J ≠ 0`, so the base has no nonconstant periodic orbit (from U-04; cycles need `A`); a stopping rule is declared (Def 10.3; Model 4.7); carried: 5.4 `[LINAJE: UTHA §5.2]`; serotonin is a claim about people |
 | H-28 | §5.3, pp.33–34 | ludomania: chasing reward prediction error, not value; a hijacked Genesis Operator pursuing `dK/dt` in noise | `REINO`, `GTPA v2.0`, `DROPPED` | carried: 5.4 `[LINAJE: UTHA §5.3]`; Kolmogorov complexity is not computable, so a model declares a measurable substitute (Model 4.10); the RPE reading is a claim about people |
 | H-29 | §6.1.1, p.35; App A.1, p.71 | `u_opt = Z⁻¹F_wish` with `Z ~ BᵀB`; an ill-conditioned `B` makes `Z⁻¹` huge | `GTPA v2.0`, `REINO` | replaced by the control law `u* = Z⁻¹BᵀG_regF_req`, `Z = BᵀG_regB + λ_effort I` (Definition 2.4, Result 2.5; CO-01, CT-05); UTHA's form mismatches dimensions unless `k = n` and omits `λ_effort`; v1.2's printed forms fail (EG-02.1, EG-03.8); carried: MR-K09 `[LINAJE: UTHA Cap.6 §6.1.1]`, also 5.1, 5.2, reino-compacto |
@@ -2418,7 +2609,8 @@ Block B §6, Block C theorems §6, Block C objects §6 and the crosswalk's
   checked on 2026-10-13, the section not given).
 - N. Berglund, "Kramers' law: validity, derivations and generalisations",
   *Markov Processes and Related Fields* 19 (2013), 459–490
-  (arXiv:1106.5799; checked on 2026-10-13).
+  (arXiv:1106.5799; its bibliographic record checked on 2026-10-13, and
+  eqs. (1.8), (3.15) against that arXiv version on 2026-10-14).
 - K. J. Åström, B. Wittenmark, *Adaptive Control*, 2nd ed., Addison-Wesley,
   1995.
 - W. M. Wonham, "Some applications of stochastic differential equations to
@@ -2471,9 +2663,13 @@ CG-8, for Model 4.11. The notes automodelo-colectivo and
 acoplamiento-entre-dos both number their statements AC-n; the IDs are not
 renumbered, and this text cites each with its note. The five notes on which
 "`PROVED` in the note" rests (those cited above for Models 4.1, 4.5 and
-4.6) are deposited with the GTPA v2.2 record as `RESEARCH-NOTES-v2.2.pdf`:
-public copies as at that commit, without their provenance line and their
-pointers to unpublished working files.
+4.6) are deposited with the GTPA v2.2.1 record as `RESEARCH-NOTES-v2.2.1.pdf`:
+public copies as the adjudication read them, at that commit, without their
+provenance line, their pointers to unpublished working files and, in one
+note, a closing remark on internal use; their status lines, check levels and
+what they say GTPA contains are those of the notes before the adjudication
+(their base is GTPA v2.1), and where this text states a result with other
+hypotheses, wording or level, this text governs.
 
 Sources read for the core: research main `ff91d6f` (`ufd/UFD-NUCLEO.md`; the three block
 files; `gtpa-lab/THEORY-STATE.md`, N0–N3; `gtpa-lab/CLAIM-LEDGER.md` for

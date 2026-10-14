@@ -179,7 +179,7 @@ estable. En AC-1 el desfase no tiene tal `I` (`J_φ` decrece fuera de los
 equilibrios, U-04) y vuelve; la fase común sí (`ψ − Ωt`), y un empujón la
 desplaza para siempre. Dos cuerpos que conserven una cantidad de su estado
 relativo, no constante cerca, no se enganchan en el sentido de AC-6 (b); con
-pérdida pueden, y eso es física (el ensayo, «Dos que pagan: la marea»). (c) Es
+pérdida pueden, y eso es física (ensayo «Cómo se acoplan dos», no publicado). (c) Es
 imagen lo demás: «atracción», «masa», «energía», «órbita», «marea» (Definición
 1.5, U-11) y el «ritmo» o el «acoplamiento» de alguien sin observable declarado.
 

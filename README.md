@@ -1,13 +1,14 @@
 # GTPA: Agency on a Noisy Base Motion, Without Physics
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23352473.svg)](https://doi.org/10.5281/zenodo.23352473)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23374852.svg)](https://doi.org/10.5281/zenodo.23374852)
 
-**Core edition with Part H, the human sector. Version 2.2.** A mathematical
+**Core edition with Part H, the human sector. Version 2.2.1.** A mathematical
 framework for modelling an agent that acts on a noisy base motion.
 
 By **C. Valdepeñas**. Drafted by AI systems (Claude, by Anthropic) working for
-the author; Model 4.11, two short additions in §2 and part of the 2.2
-additions were adapted from research notes produced by Codex. **Stated up
+the author; the first form of Model 4.11 and two short additions in §2 were
+adapted from research notes produced by Codex, and the 2.2 additions were
+written from research notes produced by Codex and by Claude. **Stated up
 front: one part of the core is machine-checked in Lean; the rest is checked
 by machine recomputation and by AI reads from one provider. No person and no
 AI system of another provider has checked this text.**
@@ -29,22 +30,32 @@ down the slope, and noise.
   and spends nothing in directions where the action has no effect
   (Result 2.5).
 
-Each statement carries its hypotheses, a status and a check level. Worked
-models are declared as models, and their results hold for those models only.
-It is not physics and it says nothing about any person.
+Each statement carries its hypotheses and a status, and each result also its
+check level. Worked models are declared as models, and their results hold for
+those models only. It is not physics and it says nothing about any person.
 
 ## Status
 
-- **Version 2.2, published on Zenodo on 2026-10-13**:
-  [10.5281/zenodo.23352473](https://doi.org/10.5281/zenodo.23352473).
-- **2.2 is a focused edition.** It keeps the core and Part H of 2.1, with no
-  numbered statement added, removed or changed, and adds exact results on
-  declared models to four worked models (below). It supersedes GTPA v2.1
-  (2026-10-06, [10.5281/zenodo.23195763](https://doi.org/10.5281/zenodo.23195763)),
-  which superseded GTPA v2.0 (2026-10-05,
-  [10.5281/zenodo.23172305](https://doi.org/10.5281/zenodo.23172305)),
-  which superseded GTPA v1.2 (2025-12-20). The 2.1 files of this repository
-  are kept at the tag `v2.1`.
+- **Version 2.2.1, published on Zenodo on 2026-10-14**:
+  [10.5281/zenodo.23374852](https://doi.org/10.5281/zenodo.23374852).
+- **2.2.1 is a correction of 2.2** (2026-10-13,
+  [10.5281/zenodo.23352473](https://doi.org/10.5281/zenodo.23352473)): no
+  result changed in its hypotheses, conclusion or level, and no statement is
+  added, removed or renumbered. After 2.2 was published, an assurance pass by
+  independent AI contexts read its record again and found no false result; it
+  confirmed points in the citations, the summaries, some wording, the notation
+  table and the typesetting, and 2.2.1 corrects them, each listed by place in
+  the header of the text.
+- **2.2 is a focused edition.** It kept the core and Part H of 2.1, with no
+  result changed, and added exact results on declared models to four worked
+  models (below). Of 2.1's declarations, only the Scope bullet of Model 4.11
+  was rewritten, for its new variants; Part H gained pointers to the new
+  results and a reworded Definition H.1. 2.1 (2026-10-06,
+  [10.5281/zenodo.23195763](https://doi.org/10.5281/zenodo.23195763))
+  superseded 2.0 (2026-10-05,
+  [10.5281/zenodo.23172305](https://doi.org/10.5281/zenodo.23172305)), which
+  superseded GTPA v1.2 (2025-12-20). The files of earlier versions in this
+  repository are kept at the tags `v2.1` and `v2.2`.
 - Of the 21 theorem and corollary statements of v1.2, one holds, under
   hypotheses v1.2 does not state; each of the other twenty fails or is
   ill-posed as written (§5 of the text). The statement-by-statement audit of
@@ -52,7 +63,7 @@ It is not physics and it says nothing about any person.
 - All versions: concept DOI
   [10.5281/zenodo.17636280](https://doi.org/10.5281/zenodo.17636280).
 
-## What 2.2 adds
+## What 2.2 added
 
 Each addition comes from a research note and was adjudicated result by
 result by an independent AI context before it entered; each holds for its
@@ -65,15 +76,16 @@ declared model only.
   (acting on the mean coupling is not enough); and a hidden mode read through
   a noisy channel over time (when the mode matters for the action, the value
   of a new window tends to zero if the mode is fixed and stays above an
-  explicit positive bound if it switches). The scope
-  now gives the exact net value of the option to observe at a known cost.
-- **Wells and terrain (Models 4.5 and 4.1).** In a well of the base with
-  noise, as the noise level tends to zero the barrier sets the exponential
-  rate of how long the state stays, and the curvature sets only the return
-  rate, the variance and the prefactor; without noise, leaving takes an
-  effort set by the barrier alone. In a declared model, redesigning the base,
-  paid once, is cheaper than holding against it exactly past an explicit
-  horizon.
+  explicit positive bound if it switches). The scope gives the exact net value
+  of the option to observe at a known cost.
+- **Wells and terrain (Models 4.5 and 4.1).** In a declared one-dimensional
+  gradient well with constant noise, as the noise level tends to zero the
+  barrier sets the exponential rate of the mean time spent in the well; the
+  curvature at the bottom sets only the return rate and the variance, and the
+  curvatures enter the mean time only through the prefactor. Without noise,
+  the least effort to leave, approached but not attained, is set by the
+  barrier alone. In a declared model, redesigning the base, paid once, is
+  cheaper than holding against it exactly past an explicit horizon.
 - **Coupling between two and collectives (Model 4.6).** A common order is a
   fixed subspace of actions; calibrated self-models of the members compose
   into the group's calibrated model under an exact condition, can compose
@@ -82,8 +94,13 @@ declared model only.
   third phase that does not respond can break.
 
 Some of these statements are marked "PROVED in the note": their proofs are in
-five research notes, deposited with the record as `RESEARCH-NOTES-v2.2.pdf`
-(public copies; four in Spanish, one in English). The notes are not part of
+five research notes, deposited with the record as `RESEARCH-NOTES-v2.2.1.pdf`
+(public copies; four in Spanish, one in English). Each copy is as the
+adjudication of 2026-10-13 read it, without its provenance line, its
+pointers to unpublished working files and, in one note, a closing remark on
+internal use. Its status line, check levels and what it says GTPA contains
+predate that adjudication; where the edition states a result with other
+hypotheses, wording or level, the edition governs. The notes are not part of
 the edition.
 
 ## UTHA
@@ -119,30 +136,33 @@ machine; (3) read by an independent AI context; (4) written only.
   in directions where the action has no effect), is formally checked in
   `GtpaControlLaw.lean`: 18 theorems with no unproved step and only Lean's
   standard axioms. The toolchain and mathlib revision are in the file's
-  header. It is the only part checked at that level, and 2.2 does not change
-  it.
+  header. It is the only part checked at that level; 2.2 and 2.2.1 do not
+  change it.
 - **Machine recomputation (level 2).** The decisive calculations of the core
-  and of Part H were recomputed by machine with no disagreement, and those of
-  the 2.2 additions on 2026-10-13.
+  and of Part H were recomputed by machine with no disagreement, those of the
+  2.2 additions on 2026-10-13, and those that the 2.2.1 corrections touch on
+  2026-10-14.
 - **Independent AI reads (level 3).** The text was read by independent AI
   contexts from the same provider as the drafting model (Claude, by
-  Anthropic), and their findings are fixed (the fixes were not re-read). For
-  2.2: three adjudications of the additions, then a mathematics read and a
-  publication read of the new text. No AI system of another provider has
-  checked it.
+  Anthropic), and their findings are fixed. For 2.2: three adjudications of
+  the additions, then a mathematics read and a publication read of the new
+  text. For 2.2.1: the assurance pass (nine reviews, each finding checked by
+  one or two more contexts trying to refute it, a completeness critic), a
+  mathematics read and a publication read of the corrections, and one re-read
+  of their fixes. No AI system of another provider has checked it.
 
 ## Files
 
 | File | On the Zenodo record | What it is |
 |---|---|---|
-| `GTPA-v2.2.pdf` | yes | The published edition: the core (§0–§5) and Part H. |
-| `RESEARCH-NOTES-v2.2.pdf` | yes | Public copies of the five research notes behind "PROVED in the note". |
+| `GTPA-v2.2.1.pdf` | yes | The published edition: the core (§0–§5) and Part H. |
+| `RESEARCH-NOTES-v2.2.1.pdf` | yes | Public copies of the five research notes behind "PROVED in the note". |
 | `BLOCK-B-ANSWERS.pdf` | yes | Proofs of the core cited by number (block B). |
 | `BLOCK-C-THEOREMS.pdf` | yes | Proofs of the core cited by number (block C, theorems). |
 | `BLOCK-C-OBJECTS.pdf` | yes | Proofs of the core cited by number (block C, objects). |
 | `CROSSWALK-v1.2.pdf` | yes | Errata annex: the statement-by-statement audit of GTPA v1.2. |
 | `GtpaControlLaw.lean` | yes | The Lean check of the core of Result 2.5. |
-| `GTPA-v2.2.md` | no | The Markdown source of `GTPA-v2.2.pdf`; same text, not deposited. |
+| `GTPA-v2.2.1.md` | no | The Markdown source of `GTPA-v2.2.1.pdf`; same text, not deposited. |
 | `notes/` | no | The Markdown sources of the five notes (the PDF adds a cover page). |
 | `LICENSE` | no | CC BY-NC-SA 4.0, the licence of the Zenodo record. |
 | `CITATION.cff` | no | Citation metadata (version DOI). |
@@ -158,8 +178,8 @@ of the working repository (for instance `gtpa-v2/GTPA-v2.md` or
 ## How to cite
 
 Valdepenas, C. (2026). *GTPA: Agency on a Noisy Base Motion, Without
-Physics. Core Edition with Part H, the Human Sector* (Version 2.2). Zenodo.
-[https://doi.org/10.5281/zenodo.23352473](https://doi.org/10.5281/zenodo.23352473)
+Physics. Core Edition with Part H, the Human Sector* (Version 2.2.1). Zenodo.
+[https://doi.org/10.5281/zenodo.23374852](https://doi.org/10.5281/zenodo.23374852)
 
 See `CITATION.cff`. This repository is a mirror of the Zenodo record and is
 not connected to Zenodo's GitHub integration: the DOIs above are the only
@@ -180,15 +200,17 @@ ones.
 
 ## En español
 
-GTPA 2.2 es un marco matemático para modelar un agente que actúa sobre el
+GTPA 2.2.1 es un marco matemático para modelar un agente que actúa sobre el
 movimiento de base de UFD: ve el mundo a través de una lente, estima su
 error y elige una acción con una sola regla; con el dial a cero queda la
-base tal cual. Se publicó el 13-10-2026 (10.5281/zenodo.23352473). Es una
-edición enfocada: conserva el núcleo y la Parte H de la 2.1 sin cambiar
-ningún enunciado y añade resultados exactos, en modelos declarados, sobre
-tres temas: información y acción, pozos y terreno, y acoplamiento entre dos
-y colectivos. Las pruebas que descansan en notas de investigación van en
-`RESEARCH-NOTES-v2.2.pdf`. El centro de la regla de acción está comprobado
-en Lean, las cuentas decisivas se rehicieron por máquina y el texto lo han
-leído IAs independientes del mismo proveedor (Claude, de Anthropic); ninguna
-persona lo ha revisado.
+base tal cual. Se publicó el 14-10-2026 (10.5281/zenodo.23374852) y corrige
+la 2.2 sin cambiar ningún resultado: citas, resúmenes, algunas frases que
+podían leerse mal, la tabla de notación y la composición. La 2.2 conservó el
+núcleo y la Parte H de la 2.1 sin cambiar ningún resultado y añadió
+resultados exactos, en modelos declarados, sobre tres temas: información y
+acción, pozos y terreno, y acoplamiento entre dos y colectivos. Las pruebas
+que descansan en notas de investigación van en `RESEARCH-NOTES-v2.2.1.pdf`.
+El centro de la regla de acción está comprobado en Lean, las cuentas
+decisivas se rehicieron por máquina y el texto lo han leído IAs
+independientes del mismo proveedor (Claude, de Anthropic); ninguna persona lo
+ha revisado.
